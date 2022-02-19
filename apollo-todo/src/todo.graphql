@@ -1,0 +1,8 @@
+const FETCH_TASKS = gql`
+  query FetchTasks {
+    fetchTasks @client {
+      id
+      title
+    }
+  }
+`;
